@@ -114,11 +114,3 @@ retail_df.summary().select('summary', 'InvoiceNo', 'Quantity', 'UnitPrice').disp
 from pyspark.sql.functions import min, max, percentile
 
 retail_df.select(min("unitprice"), expr("max(unitprice)"), percentile("unitprice", 0.99)).display()
-
-# COMMAND ----------
-
-# MAGIC %md
-# MAGIC &copy; 2021-2026 <a href="https://www.scholarnest.com/">ScholarNest</a>. All rights reserved.<br/>
-# MAGIC Apache, Apache Spark, Spark and the Spark logo are trademarks of the <a href="https://www.apache.org/">Apache Software Foundation.</a><br/>
-# MAGIC Databricks, Databricks Cloud and the Databricks logo are trademarks of the <a href="https://www.databricks.com/">Databricks Inc.</a><br/>
-# MAGIC <a href="https://www.scholarnest.com/pages/privacy">Privacy Policy</a> | <a href="https://www.scholarnest.com/pages/terms">Terms of Use</a> | <a href="https://www.scholarnest.com/pages/contact">Contact Us</a>

@@ -1,10 +1,4 @@
-# Databricks notebook source
-# MAGIC %md
-# MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
-# MAGIC <img src="https://learningjournal.github.io/pub-resources/logos/scholarnest_academy.jpg" alt="ScholarNest Academy" style="width: 1400px">
-# MAGIC </div>
 
-# COMMAND ----------
 
 # MAGIC %md
 # MAGIC ####1. Create a dataframe as below
